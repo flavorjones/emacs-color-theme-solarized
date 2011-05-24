@@ -289,7 +289,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
              (font-lock-type-face ((t (,@fmt-none ,@fg-yellow)))) ; Type
              (font-lock-variable-name-face ; Identifier
               ((t (,@fmt-none ,@fg-blue))))
-             (font-lock-warning-face ((t (,@fmt-bold ,@fg-red)))) ; Error
+             (font-lock-warning-face ((t (,@fmt-bold ,@bg-red ,@fg-base03)))) ; Error
              (font-lock-doc-face ((t (,@fmt-ital ,@fg-base01)))) ; Comment
              (font-lock-doc-string-face  ; Comment (XEmacs-only)
               ((t (,@fmt-ital ,@fg-base01))))
